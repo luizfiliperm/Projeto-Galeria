@@ -1,4 +1,4 @@
 <?php
-    setcookie("login");
-    header(login.php);
+    // setcookie("login");
+    // header(login.php);
 ?>

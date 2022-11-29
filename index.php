@@ -1,8 +1,8 @@
 <?php
     include("admin/config.inc.php");
 
-    require_once("admin/validateCookie.inc.php");
-    include_once("templates/top.php");
+    // require_once("admin/validateCookie.inc.php");
+    include_once("templates/header.php");
 
     if(empty($_SERVER["QUERY_STRING"])){
         $conteudo = "templates/mainContent.php";
@@ -11,5 +11,5 @@
         $pg = $_GET["pg"];
         include_once("$pg.php");
     }
-    include_once("templates/bottom.php");
+    include_once("templates/footer.php");
 ?>
