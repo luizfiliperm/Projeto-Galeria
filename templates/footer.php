@@ -1,5 +1,5 @@
 <footer>
-    <link rel="stylesheet" href="templates/static/css/menu.css">
+    <link rel="stylesheet" href="templates/static/css/footer.css">
         <div id="contact-area">
             <div class="container">
                 <div class="row">

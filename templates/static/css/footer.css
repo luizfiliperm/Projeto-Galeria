@@ -1,0 +1,66 @@
+/*Footer*/
+ 
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+
+.contact-box i {
+    color: black;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type = "text"],#contact-form input[type = "email"],#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contat-form .main-form {
+    width: 120px;
+    height: 50px;
+}
+
+#copy-area {
+    background-color: rgba(22, 22, 22, 0.151);
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: grey;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: rgb(214, 163, 240);
+}	
+
+/*FIXO*/

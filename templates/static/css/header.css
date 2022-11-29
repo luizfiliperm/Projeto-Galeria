@@ -1,0 +1,61 @@
+/*FIXO*/
+
+/* GERAIS */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+ }
+ 
+ .row {
+    margin: 0;
+ }
+ 
+ .container {
+    padding: 70px 0;
+ }
+ 
+ p, li {
+    color: grey;
+    font-size: 14px;
+ }
+ 
+ /* Barra de navegação*/
+ 
+ header, .navbar {
+     background-color: rgba(0, 0, 0, 0.705)  ;
+ }
+ 
+ #nav-container {
+     padding-top: 0;
+     padding-bottom: 0;
+ }
+ 
+ #logo {
+     width: 75px;
+     border-radius: 20%;
+ }
+ 
+ .navbar-brand {
+     padding: 0;
+     color: rgb(255, 255, 255);
+ }
+ 
+ .navbar-brand:hover {
+     color: rgb(255, 255, 255);
+ }
+ 
+ #navbar-links a {
+     color: rgb(255, 255, 255);
+ }
+ 
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding: 1rem .8rem;
+ }
+ 
+ .navbar-expand-lg .navbar-nav .login {
+     background-color: rgba(0, 0, 0, 0.507);
+     border-radius: 10px;
+     
+ }
+ 
