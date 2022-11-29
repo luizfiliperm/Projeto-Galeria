@@ -5,16 +5,17 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="main-title">Fale conosco</h3>
+                        <h5>Galery Gatito!</h5>
                     </div>
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-phone"></i>
-                        <p><span class="contact-title">Ligue para:</span> (33)4002-0922</p>
-                        <p><span class="contact-title">Horarios:</span> 8:00 - 19:00</p>
+                        <p><span class="contact-title">Ligue para:</span> (33) 4002-8922</p>
+                        <p><span class="contact-title">Horarios:</span> 08:00 - 19:00</p>
                     </div>
 
                     <div class="col-md-4 contact-box">
                         <i class="fas fa-envelope"></i>
-                        <p><span class="contact-title">Email de contato:</span> mmmmmmm@gmail.com</p>
+                        <p><span class="contact-title">Email de contato:</span> LeV_agency@gmail.com</p>
                     </div>
 
                     <div class="col-md-4 contact-box">
@@ -25,10 +26,10 @@
                         <p>Ou nos deixe uma mensagem: </p>
                     </div>
                     <div class="col-md-6" id="contact-form">
-                        <form action="">
-                            <input type="email" class="form-control" placeholder="E-mail" name="email">
-                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
-                            <textarea class="form-control" rows="3" placeholder="Sua mensagem" name="message"></textarea>
+                        <form method="POST" action="admin/saveMessage.php">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email" required>
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem" name="message" required></textarea>
                             <input type="submit" class="main-btn" value="enviar">
                         </form>
                     </div>

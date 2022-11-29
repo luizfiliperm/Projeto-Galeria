@@ -18,6 +18,7 @@
     <!--Parallax-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <title>Galery</title>
+    <link rel="icon" href="templates/static/img/header/logo.png">
 </head>
 <body>
 
@@ -27,7 +28,7 @@
 <div class="container" id="nav-container">
     <nav class="navbar navbar-expand-lg fixed-top">
         <a href="#" class="navbar-brand">
-            <img id="logo" src="templates/static/img/header/logo.jpg" alt="logo gatito"> Galery Gatito
+            <img id="logo" src="templates/static/img/header/logo.png" alt="logo gatito"> GG!
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
