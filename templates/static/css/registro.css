@@ -16,6 +16,11 @@
     color:#0c7e7e;
 }
 
+#cont-register {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+}
 
 #apply-area{
     height: 500px;
@@ -37,7 +42,7 @@
 #company-img {
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
-    background-image: url(../img/sobreNos/empresa.jpg);
+    background-image: url(../img/sobreNos/registro.png);
     background-size: cover;
     height: 100%;
 }
@@ -131,7 +136,7 @@
 }
 
 #contact-form {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../templates/static/css/login.css">
+    <link rel="stylesheet" href="../templates/static/css/registro.css">
     <!--fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,15 +34,16 @@
                         </div>
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">
-                            <h4 class="main-title"><i class="fa fa-paw"></i> Galery Gatito</h4>
+                            <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Create an Account</h5>
                         <form action="" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-user"></i> Username:</h5>
                             <input type="text" class="form-control" name = "userName" placeholder="username">
                             <h5 class="login"><i class="fa fa-lock"></i> Password:</h5>
                             <input type="password" class="form-control" name = password placeholder="******">
+                            <h5 class="login"><i class="fa fa-lock"></i> Confirm Password:</h5>
+                            <input type="password" class="form-control" name = password placeholder="******">
                             <button class="main-btn" id="apply-btn">Sign Up</button>
                         </form>
-                            <a class="register" href="register.php">Sign in</a>
                     </div>
                 </div>
             </div>

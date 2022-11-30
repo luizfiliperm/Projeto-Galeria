@@ -1,4 +1,4 @@
-<main>
+<main >
     <link rel="stylesheet" href="templates/static/css/mainContent.css">
        <!--slider-->
             <div id="mainSlider" class="carousel slide" data-ride="carousel">
@@ -144,7 +144,6 @@
                 </div>
             </div>
         </div>
- 
 
     </main>
 <!-- <span><a href="?pg=admin/logout">Sair</a></span> -->
