@@ -1,7 +1,6 @@
 .main-btn {
     background-color: rgb(200, 200, 236);
     color: black;
-    text-transform: uppercase;
     width: 120px;
     height: 50px;
     padding: 5px 15px;
@@ -21,4 +20,24 @@
    margin: 70px 0 65px 0;
    font-size: 30px;
    text-align: center;
+}
+
+/*Trabalho*/
+
+
+#insert-btn{
+    text-align: center;
+	color: rgb(17, 17, 17);
+	display: block;
+	height: auto;
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: transparent;
+	border-color: rgb(129, 21, 156);
+}
+
+#insert-btn:hover {
+	border-color: rgb(0, 0, 0);
 }

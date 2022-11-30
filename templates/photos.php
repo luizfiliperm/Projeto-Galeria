@@ -24,8 +24,18 @@
                     <a href="templates/static/img/filter/rengoku_by_muztnafi_dduntaq-fullview.jpg" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="templates/static/img/filter/rengoku_by_muztnafi_dduntaq-fullview.jpg" alt=""></a>
                 </div>  
             </div>
-    
         </div>
+
+      
+
+        <div id="insert-photos">
+            <div class="row">
+                <div class="col-md-12">
+                 <a href="#" class="main-btn" id="insert-btn">Inserir Fotos</a>
+                </div>            
+            </div>
+        </div>
+        
 
     </main>
 
