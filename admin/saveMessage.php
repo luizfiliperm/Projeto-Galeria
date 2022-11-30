@@ -12,10 +12,17 @@
     
 
     if(!$insert){
-        $msgSucess = 1; 
-        header('Location: ' ."../index.php");
+        echo("<script>
+            window.alert('Ocorreu algum erro, por favor tente novamente!');    
+            window.location.href='../index.php';
+            </script>"
+        );
+   
     }else{
-        $msgSucess = 2; 
-        header('Location: ' ."../index.php");
+        echo("<script>
+            window.alert('Mensagem Enviada com Sucesso!');
+            window.location.href='../index.php';
+            </script>"
+        );
     }
 ?>
