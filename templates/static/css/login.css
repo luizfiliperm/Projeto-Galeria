@@ -1,4 +1,44 @@
-/*Trabalho*/
+.icon {
+    text-decoration: none;
+    color: black;
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+.icon i:hover {
+    color:blue;
+}
+
+.main-btn3{
+    margin-top: 20px;
+    color: black;
+    border: 0px solid transparent;
+    transition: .5s;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#login {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background: linear-gradient(to right, darkblue, darkorchid) ;
+}
+   
+
+#registro {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(to right, darkorchid ,darkblue) ;
+    
+}
+
+#btn-registro{
+    margin-left: 10Vw;
+}
+
 
 #apply-area{
     height: 500px;
@@ -39,22 +79,6 @@
     margin-bottom: 20px;
 }
 
-#apply-btn{
-    color: antiquewhite;
-    display: block;
-    height: auto;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    background-color: transparent;
-    border-color: white;
-}
-
-#apply-btn:hover {
-    border-color: rgb(255, 255, 255);
-}
-
 #apply-area{
     background-color: rgba(0, 0, 0, 0.658);
     height: 500px;
@@ -80,13 +104,13 @@
 .main-btn {
    background-color: rgb(200, 200, 236);
    color: black;
-   text-transform: uppercase;
    width: 120px;
    height: 50px;
    padding: 5px 15px;
    border-radius: 30px;
    border: 3px solid transparent;
    transition: .5s;
+   cursor: pointer;
 }
 
 .main-btn:hover {
@@ -113,8 +137,8 @@
 }
 
 #contact-form {
-    margin-top: 30px;
-    padding: 50px;
+    margin-top: 2px;
+    padding: 40px;
 }
 
 #contact-form input[type = "text"],#contact-form input[type = "password"] {

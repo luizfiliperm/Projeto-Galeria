@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,13 +31,21 @@
     <div id="apply-area">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 apply-box" id="company-img"><div class="col-md-1"><button class = "main-btn">d</button></div></div>
-                    <div class="col-md-6 apply-box" id="patern-img">
-                        <h4 class="main-title">Login</h4>
-                         <form action="" method="POST" id ="contact-form">
+                    <div class="col-md-6 apply-box" id="company-img">
+                        <div class="col-md-1">    
+                            <a class="icon" href="../index.php"><i class="fa fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                        <div class="col-md-6 apply-box" id="patern-img">
+                            <h4 class="main-title">Welcome</h4>
+                        <div class="col-md-6" id="btn-registro"> 
+                            <button class = "main-btn3" id="login" >Login</button> 
+                            <button class = "main-btn3" id="registro" >Register</button>                                     
+                        </div>
+                        <form action="" method="POST" id ="contact-form">
                             <input type="text" class="form-control" name = "userName" placeholder="username">
                             <input type="password" class="form-control" name = password placeholder="password">
-                            <button class="main-btn" id="apply-btn">SingUp</button>
+                            <button class="main-btn" id="apply-btn">Sing Up</button>
                         </form>
                     </div>
                 </div>
