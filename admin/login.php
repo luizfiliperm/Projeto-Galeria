@@ -24,10 +24,13 @@
 
 <body>
 
+
+
+
     <div id="apply-area">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 apply-box" id="company-img"></div>
+                    <div class="col-md-6 apply-box" id="company-img"><div class="col-md-1"><button class = "main-btn">d</button></div></div>
                     <div class="col-md-6 apply-box" id="patern-img">
                         <h4 class="main-title">Login</h4>
                          <form action="" method="POST" id ="contact-form">
