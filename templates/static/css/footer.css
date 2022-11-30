@@ -19,15 +19,17 @@
 
 .contact-box p {
     font-size: 16px;
+    color: #000706;
 }
 
 .contact-title {
     font-weight: bold;
-    color: blueviolet;
+    color: #0c7e7e;
 }
 
 #msg-box p {
     font-size: 22px;
+    color: #000706;
 }
 
 #contact-form input[type = "text"],#contact-form input[type = "email"],#contact-form textarea {
@@ -41,7 +43,7 @@
 }
 
 #copy-area {
-    background-color: rgba(22, 22, 22, 0.151);
+    background-color:#bfac8b;
 }
 
 #copy-area .container {
@@ -55,12 +57,12 @@
 
 #copy-area .container a {
     font-weight: bold;
-    color: grey;
+    color: #00272d;
 }
 
 #copy-area .container a:hover {
     text-decoration: none;
-    color: rgb(214, 163, 240);
+    color:#0c7e7e;
 }	
 
 /*FIXO*/

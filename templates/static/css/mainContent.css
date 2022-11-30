@@ -17,13 +17,12 @@
 	font-size: 22px;
 	font-weight: 300;
 	margin-bottom: 120px;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 .main-btn {
-	background-color: rgb(200, 200, 236);
-	color: black;
-	text-transform: uppercase;
+	background-color: #00272d;
+	color: rgb(255, 255, 255);
 	width: 120px;
 	height: 50px;
 	padding: 5px 15px;
@@ -35,12 +34,11 @@
 .main-btn:hover {
 	text-decoration: none;
 	color: black;
-	background-color: transparent;
-	border-color:  rgb(200, 200, 236);
+	background-color: #0c7e7e;
 }
 
 .carousel-indicators .active{
-	background-color: rgb(26, 26, 26);
+	background-color:#000706;
 }
 
 
@@ -54,11 +52,11 @@
 
 .card-body {
 	text-align: center;
-	background-color: rgba(20, 20, 20, 0.699);
+	background-color: #bfac8b;
 }
 
 .card-text, .card-title {
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .main-btn2 {
@@ -98,7 +96,7 @@
 }
 
 #patern-img h4 , #patern-img p{
-	color: rgb(255, 255, 255);
+	color: #000706;
 }
 
 #patern-img h4 {
@@ -112,7 +110,7 @@
 }
 
 #apply-btn{
-	color: antiquewhite;
+	color: #000706;
 	display: block;
 	height: auto;
 	width: 180px;
@@ -124,11 +122,11 @@
 }
 
 #apply-btn:hover {
-	border-color: rgb(255, 255, 255);
+	border-color: #0c7e7e;
 }
 
 #apply-area{
-	background-color: rgba(0, 0, 0, 0.658);
+	background-color: #bfac8b;
 	height: 500px;
 	margin-bottom: 50px;
 	background-attachment: fixed;
@@ -150,8 +148,7 @@
 }
 
 #portifolio-area .filter-btn{
-	border: 1px solid rgb(46, 41, 41);
-	background-color: transparent;
+	background-color: #00272d;
 	text-transform: none;
 	margin: 0 15px;
 	min-width: 100px;
@@ -162,6 +159,6 @@
 }
 
 #portifolio-area .filter-btn:hover{
-	color: blueviolet;
-	border-color: rgba(137, 43, 226, 0.521);
+	color: #000000;
+	background-color: #0c7e7e;
 }

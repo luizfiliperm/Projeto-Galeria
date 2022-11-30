@@ -16,14 +16,14 @@ body{
  }
  
  p, li {
-    color: grey;
+    color: rgb(255, 255, 255);
     font-size: 14px;
  }
  
  /* Barra de navegação*/
  
  header, .navbar {
-     background-color: #692f4ad7 ;
+     background-color: #134647e0 ;
  }
  
  #nav-container {
@@ -53,9 +53,9 @@ body{
      padding: 1rem .8rem;
  }
  
- .navbar-expand-lg .navbar-nav .login {
-     background-color: rgba(0, 0, 0, 0.507);
+ .navbar-expand-lg .navbar-nav :hover {
+     background-color: rgba(3, 54, 73, 0.938);
      border-radius: 10px;
-     
+     transform: scale(1.1);
  }
  
