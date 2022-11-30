@@ -6,13 +6,13 @@
 
  .card-body {
     text-align: center;
-    background-color: rgba(20, 20, 20, 0.699);
+    background-color: #bfac8b;
     padding-bottom: 40px;
     
  }
  
  .card-text, .card-title {
-     color: white;
+     color: rgb(0, 0, 0);
  }
  
  .main-btn2 {

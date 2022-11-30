@@ -37,7 +37,7 @@
                         </div>
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">
-                            <h4 class="main-title">Welcome</h4>
+                            <h4 class="main-title">Galery Gatito!</h4>
                         <div class="col-md-6" id="btn-registro"> 
                             <button class = "main-btn3" id="login" >Login</button> 
                             <button class = "main-btn3" id="registro" >Register</button>                                     

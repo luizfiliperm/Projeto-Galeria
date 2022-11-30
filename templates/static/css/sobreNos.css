@@ -21,7 +21,7 @@
 }
 
 #patern-img h4 , #patern-img p{
-    color: rgb(255, 255, 255);
+    color:  #000706;
 }
 
 #patern-img h4 {
@@ -35,7 +35,7 @@
 }
 
 #apply-btn{
-    color: antiquewhite;
+    color: #000706;
     display: block;
     height: auto;
     width: 180px;
@@ -47,11 +47,11 @@
 }
 
 #apply-btn:hover {
-    border-color: rgb(255, 255, 255);
+    border-color:  #0c7e7e;
 }
 
 #apply-area{
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color: #bfac8b;
     height: 500px;
     margin-bottom: 50px;
     background-attachment: fixed;
@@ -71,11 +71,11 @@
 
 .card-body {
    text-align: center;
-   background-color: rgba(20, 20, 20, 0.699);
+   background-color:  #bfac8b;
 }
 
 .card-text, .card-title {
-   color: white;
+   color: rgb(0, 0, 0);
 }
 
 .main-btn2 {
@@ -115,7 +115,7 @@
 }
 
 #apply-btn{
-   color: antiquewhite;
+   color: rgb(0, 0, 0);
    display: block;
    height: auto;
    width: 180px;
@@ -127,5 +127,5 @@
 }
 
 #apply-btn:hover {
-   border-color: rgb(248, 172, 172);
+   border-color: #0c7e7e;
 }

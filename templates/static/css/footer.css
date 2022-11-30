@@ -19,7 +19,7 @@
 
 .contact-box p {
     font-size: 16px;
-    color: #000706;
+    color: #000706a4;
 }
 
 .contact-title {
@@ -29,7 +29,7 @@
 
 #msg-box p {
     font-size: 22px;
-    color: #000706;
+    color: #00070654;
 }
 
 #contact-form input[type = "text"],#contact-form input[type = "email"],#contact-form textarea {

@@ -8,32 +8,22 @@
 }
 
 .icon i:hover {
-    color:blue;
+    color:#0c7e7e;
 }
 
 .main-btn3{
     margin-top: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     border: 0px solid transparent;
     transition: .5s;
     width: 100px;
     height: 50px;
     cursor: pointer;
+    background: linear-gradient(to right, #00272d, #0c7e7e) ;
+    border-radius: 30px;
+    text-transform: uppercase;
 }
 
-#login {
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    background: linear-gradient(to right, darkblue, darkorchid) ;
-}
-   
-
-#registro {
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    background: linear-gradient(to right, darkorchid ,darkblue) ;
-    
-}
 
 #btn-registro{
     margin-left: 10Vw;
@@ -66,13 +56,13 @@
 }
 
 #patern-img h4 , #patern-img p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #patern-img h4 {
+    font-size: 65px;
     margin-top: 8%;
     margin-bottom: 20px;
-    text-transform: uppercase;
 }
 
 #patern-img p {
@@ -80,7 +70,7 @@
 }
 
 #apply-area{
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color:  #bfac8b;
     height: 500px;
     margin-bottom: 50px;
     background-attachment: fixed;
@@ -121,19 +111,19 @@
 }
 
 #apply-btn{
-   color: antiquewhite;
+   color: rgb(255, 255, 255);
    display: block;
    height: auto;
    width: 180px;
    margin-left: auto;
    margin-right: auto;
    margin-top: 30px;
-   background-color: transparent;
-   border-color: rgb(8, 8, 8);
+   transition: .2s;
+   background:#00272d;
 }
 
 #apply-btn:hover {
-   border-color: rgb(248, 172, 172);
+   border-color: #bfac8b;
 }
 
 #contact-form {
