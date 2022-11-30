@@ -1,0 +1,37 @@
+/*Cards*/
+
+.row {
+    margin-bottom: 40px;
+}
+
+ .card-body {
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.699);
+    padding-bottom: 40px;
+    
+ }
+ 
+ .card-text, .card-title {
+     color: white;
+ }
+ 
+ .main-btn2 {
+     background-color: rgb(200, 200, 236);
+     color: rgb(0, 0, 0);
+     transition: .5s;
+ }
+ 
+ .main-btn2 .card-body:hover {
+     text-decoration: none;
+     background-color: transparent;
+ }
+ 
+ .project-box .img-fluid {
+     border-radius: 10px;
+ }
+ 
+ .main-title {
+	margin: 90px 0 65px 0;
+	font-size: 30px;
+	text-align: center;
+}

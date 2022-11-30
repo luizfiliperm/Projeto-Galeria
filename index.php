@@ -1,9 +1,10 @@
 <?php
-
+    
     include("admin/config.inc.php");
 
     
     //require_once("admin/validateCookie.inc.php");
+    
     include_once("templates/header.php");
 
     if(empty($_SERVER["QUERY_STRING"])){

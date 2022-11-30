@@ -40,9 +40,9 @@
             <div class="navbar-nav"> <!--Sugestivel a mudança-->
                 <a href="?pg=templates/mainContent" class="nav-item nav-link" id="home-menu">Home</a>
                 <a href="?pg=templates/photos" class="nav-item nav-link" id="photos-menu">Fotos</a>
-                <a href="?pg=templates/album"class="nav-item nav-link" id="album-menu">Album</a>
+                <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu">Album</a>
                 <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu">Sobre nos</a>
-                <a href="#" class="nav-item nav-link login" id="contact-menu">Minha conta</a>
+                <a href="admin/login.php" class="nav-item nav-link login" id="contact-menu">Minha conta</a>
             </div>
         </div>
     </nav>
