@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="main-title">Nossos Albuns</h3>
+                            <h3 class="main-title"><i class="fa fa-images"></i> Albuns</h3>
                         </div>
                         <div class="col-md-3">
                             <div class="card">
@@ -87,7 +87,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="main-title"><i class="fas fa-camera"></i> Fotos disponiveis</h3>
+                            <h3 class="main-title"><i class="fas fa-camera"></i> Fotos Recentes</h3>
                         </div>
                         <div class="col-md-12" id="filter-btn-box">
                             <button class="main-btn filter-btn active" id="all-btn">Todos</button>
@@ -123,7 +123,7 @@
                     <div class="col-md-6 apply-box" id="company-img"></div>
                     <div class="col-md-6 apply-box" id="patern-img">
                         <h4> <i class="fa fa-paw"></i> GATITOS GALERY!</h4>
-                        <P>Galeria feita para pessoas que amam guarda recordações</P>
+                        <P>Galeria feita para pessoas que amam guardar recordações</P>
                         <P>o melhor jeito de armazenar sua fotos sem perder <br>qualidade e sem risco de suas fotos sumirem do nada</P>
                         <P>e o melhor! aqui tem gatinhos</P>
                         <a href="admin/login.php" class="main-btn" id="apply-btn">Criar conta</a>

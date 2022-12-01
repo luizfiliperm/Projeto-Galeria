@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="main-title">Fale conosco</h3>
+                        <h3 class="main-title"><i class="fa fa-phone-volume"></i> Fale conosco</h3>
                         <h5>Galery Gatito!</h5>
                     </div>
                     <div class="col-md-4 contact-box">
