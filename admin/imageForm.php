@@ -1,13 +1,11 @@
-<?php
-    include_once("includes/config.inc.php");
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../templates/static/css/registro.css">
+    <link rel="stylesheet" href="../templates/static/css/imageForm.css">
     <!--fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,27 +34,27 @@
                         </div>
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">
-                            <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Create an Account</h5>
-                        <form action="includes/register.inc.php" method="POST" id ="contact-form">
-                            <h5 class="login"> <i class="fa fa-user"></i> Username:</h5>
-                            <input type="text" class="form-control" name = "username" placeholder="username" >
-                            <h5 class="login"><i class="fa fa-lock"></i> Password:</h5>
-                            <input type="password" class="form-control" name = "password" placeholder="******" >
-                            <h5 class="login"><i class="fa fa-key"></i> Confirm Password:</h5>
-                            <input type="password" class="form-control" name = "confirmPassword" placeholder="******" >
-                            <button class="main-btn" id="apply-btn" name = "submit">Sign Up</button>
+                            <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Cadastro de fotos</h5>
+                        <form action="" method="POST" id ="contact-form">
+                            <h5 class="login"> <i class="fa fa-paperclip"></i> Url da imagem:</h5>
+                            <input type="text" class="form-control" name = "url" placeholder="url">
+                            <h5 class="login"><i class="fa fa-image"></i> Nome do Album:</h5>
+                            <input type="text" class="form-control" name = "albumName" placeholder="Nome do Album">
+                            <h5 class="login"><i class="fa fa-calendar-days"></i> Data:</h5>
+                            <input type="date" class="form-control" name = "date" value="0000-00-00" min="2022-11-30" max="2022-12-31">
+                            <button class="main-btn" id="apply-btn"><i class="fa fa-arrow-up-from-bracket"></i> Enviar</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
 
-    
 
  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

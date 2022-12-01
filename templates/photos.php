@@ -59,7 +59,7 @@
         <div id="insert-photos">
             <div class="row">
                 <div class="col-md-12">
-                 <a href="#" class="main-btn" id="insert-btn">Inserir Fotos</a>
+                 <a href="admin/imageForm.php" class="main-btn" id="insert-btn">Inserir Fotos</a>
                 </div>            
             </div>
         </div>
