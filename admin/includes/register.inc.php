@@ -1,12 +1,11 @@
 <?php
-    include_once("config.inc.php");
     if(isset($_POST["submit"])){
         
         $username = $_POST["username"];
         $usersPwd = $_POST["password"];
         $confirmPassword = $_POST["confirmPassword"];
 
-
+        require_once 'config.inc.php';
         require_once 'functions.inc.php';
 
         if(emptyInputSignup($username, $usersPwd, $confirmPassword) !== false){
@@ -57,4 +56,3 @@
         exit();
     }
 
-?>

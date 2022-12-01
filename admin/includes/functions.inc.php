@@ -40,6 +40,27 @@ function pwdShort($usersPwd) {
     return $result;
 }
 
+function userExists($conn, $username){
+    $sql = "SELECT * FROM accounts WHERE username = ?;";
+    $stmt = $conn->prepare($sql);
+
+    if(!mysqli_stmt_prepare($stmt,$sql)){
+        header("location: ../login.php?error=stmtfailed");
+    }
+
+    mysqli_stmt_bind_param($stmt, "s", $username);
+    mysqli_stmt_execute($stmt);
+
+    $resultData = mysqli_stmt_get_result($stmt);
+
+    if($row = mysqli_fetch_assoc($resultData)){
+        return $row;
+    }else{
+        $result = false;
+        return $result;
+    }
+}
+
 
 function createUser($conn, $username, $usersPwd) {
     $hashedPwd = password_hash($usersPwd, PASSWORD_DEFAULT);
@@ -65,4 +86,50 @@ function createUser($conn, $username, $usersPwd) {
         );
     exit();
 
+}
+
+function emptyInputLogin($username, $usersPwd) {
+    $result;
+    if(empty($username) || empty($usersPwd)){
+        $result = true;
+    }else{
+        $result = false;
+    }
+    return $result;
+} 
+
+function loginUser($conn, $username, $usersPwd){
+    $usernameExists = userExists($conn, $username);
+
+    if(usernameExists == false){
+        echo("<script>
+                window.alert('Este Login não existe!');
+                window.location.href='../login.php';
+            </script>"
+        );
+        exit();
+    }
+
+    $pwdHashed = $usernameExists['usersPwd'];
+
+    $checkPwd = password_verify($pwd ,$pwdHashed);
+
+    if($checkPwd == false){
+        echo("<script>
+                window.alert('Esta senha está errada!');
+                window.location.href='../login.php';
+            </script>"
+        );
+        exit();
+
+    }else if($checkPwd == true){
+        session_start();
+        $_SESSION["username"] =  $usernameExists['username'];
+        echo("<script>
+                window.alert('Você Foi logado com sucesso!');
+                window.location.href='../../index.php';
+            </script>"
+        );
+        exit();
+    }
 }

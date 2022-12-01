@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+ 
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+ 
+p, li {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+ 
+
+#logo {
+	width: 60px;
+	border-radius: 20%;
+}
+
+#nav-container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 0;
+	color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+	color: rgb(255, 255, 255);
+}
+
+.login:hover{
+    color:#0c7e7e;
+}
+
+
+.navbar-expand-lg a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 1rem .8rem;
+}
+
+
+.main-title {
+	margin: 0 0 50px 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+.navbar-nav i:hover{
+    color: #0c7e7e;
+}
+
+.navbar-expand-lg .navbar-nav .login:hover {
+	color: #0c7e7e;
+	
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background:url("../img/header/back1.jpg");
+    background-position: top;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.banner .info {
+    margin-top: 15%;
+    transform: translateY(-15%);
+
+}
+
+.banner .info h1{
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+}
+
+.banner .info a{
+    margin-left: 43.5%;
+}
+
+.main-btn {
+	background-color: #bfac8b;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	width: 120px;
+	height: 50px;
+	padding: 5px 15px;
+	border-radius: 30px;
+	border: 3px solid transparent;
+	transition: .5s;
+}
+
+.main-btn:hover {
+	text-decoration: none;
+	color: #00272d;
+	
+}
