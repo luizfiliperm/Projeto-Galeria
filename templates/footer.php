@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Desenvolvido por <a href="" target="_blank">L&V Agency</a> &copy; 2022</p>
+                        <p>Desenvolvido por <a href="https://github.com/Flygoff/Projeto-Galeria" target="_blank">L&V Agency</a> &copy; 2022</p>
                     </div>    
                 </div>
             </div>

@@ -27,7 +27,7 @@
 <!--Navbar-->
 <div class="container" id="nav-container">
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a href="#" class="navbar-brand">
+        <a href="?pg=templates/mainContent" class="navbar-brand">
             <img id="logo" src="templates/static/img/header/logo.png" alt="logo gatito"> GG!
         </a>
 
@@ -38,11 +38,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
             <div class="navbar-nav"> <!--Sugestivel a mudança-->
-                <a href="?pg=templates/mainContent" class="nav-item nav-link" id="home-menu">Home</a>
-                <a href="?pg=templates/photos" class="nav-item nav-link" id="photos-menu">Fotos</a>
-                <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu">Album</a>
-                <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu">Sobre nos</a>
-                <a href="admin/login.php" class="nav-item nav-link login" id="contact-menu">Minha conta</a>
+                <a href="?pg=templates/mainContent" class="nav-item nav-link" id="home-menu"><i class="fa fa-house"></i></a>
+                <a href="?pg=templates/photos" class="nav-item nav-link" id="photos-menu"><i class="fa fa-image"></i> Fotos</a>
+                <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu"><i class="fa fa-images"></i> Album</a>
+                <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu"><i class="fa fa-user-group"></i> Sobre nos</a>
+                <a href="admin/login.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> Minha conta</a>
             </div>
         </div>
     </nav>

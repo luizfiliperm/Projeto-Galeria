@@ -9,30 +9,18 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="templates/static/img/slideShow/uma.jpg" class="d-block w-100"alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Fotinhas de gatos fofinhos aq!</h2>
-                            <p>meow meow meow</p>
-                            <a href="#" class="main-btn">gatinho</a>
-                        </div>
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da1b7r2-1ee19d56-d29d-403a-a76b-6ebe94e4ba49.jpg/v1/fill/w_1024,h_682,q_75,strp/papi_being_a_heroic_poolguard_for_our_pups__by_chloethechihuahua_da1b7r2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgyIiwicGF0aCI6IlwvZlwvNTlkZGYzNTktMDkxMy00OWY4LWIzN2YtYzZiMmQxY2YyNDE4XC9kYTFiN3IyLTFlZTE5ZDU2LWQyOWQtNDAzYS1hNzZiLTZlYmU5NGU0YmE0OS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.t8lsrB9dwqZCEaYI273lcNr0jZ4hgNHvvf0Y3cJYADo" class="d-block w-100"alt="">
+                       
                     </div>
 
                     <div class="carousel-item">
-                        <img src="templates/static/img/slideShow/duas.jpg" class="d-block w-100"alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Bla bla bla</h2>
-                            <p>meow meow meow</p>
-                            <a href="#" class="main-btn">gatinho</a>
-                        </div>
+                        <img src="  https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da1egoa-98abc93e-a46d-43a9-a2fc-fe384ff0bea2.jpg/v1/fill/w_1192,h_670,q_70,strp/mi_amor_by_chloethechihuahua_da1egoa-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzU5ZGRmMzU5LTA5MTMtNDlmOC1iMzdmLWM2YjJkMWNmMjQxOFwvZGExZWdvYS05OGFiYzkzZS1hNDZkLTQzYTktYTJmYy1mZTM4NGZmMGJlYTIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N0rWWclZPiruJGIJjaEAaxaSbrXujlAM1FC4LbTNNok" class="d-block w-100"alt="">
+        
                     </div>
 
                     <div class="carousel-item">
-                        <img src="templates/static/img/slideShow/tres.jpg" class="d-block w-100"alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Pipipipopopo</h2>
-                            <p>meow meow meow</p>
-                            <a href="#" class="main-btn">gatinho</a>
-                        </div>
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da21vlm-8aee3f35-8856-43f9-aa55-67e27adc216c.jpg/v1/fill/w_1192,h_670,q_70,strp/relaxation_i_by_chloethechihuahua_da21vlm-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzU5ZGRmMzU5LTA5MTMtNDlmOC1iMzdmLWM2YjJkMWNmMjQxOFwvZGEyMXZsbS04YWVlM2YzNS04ODU2LTQzZjktYWE1NS02N2UyN2FkYzIxNmMuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6ZM20z2qbBNRZra6-q2dxuJzLitb2RRzMyQZYV1np_k" class="d-block w-100"alt="">
+                        
                     </div>
                 </div>
                 
@@ -55,38 +43,38 @@
                         </div>
                         <div class="col-md-3">
                             <div class="card">
-                                <img src="templates/static/img/cards/quatro.jpg" class="card-img-top"alt="">
+                                <img src="templates/static/img/cards/dog.png" class="card-img-top"alt="">
                                 <div class="card-body">
-                                    <a href="#" class="main-btn2"><h5 class="card-title"> nahme</h5></a>
-                                    <p class="card-text"> nhame nhame </p>
+                                    <a href="#" class="main-btn2"><h5 class="card-title"> Cachorros</h5></a>
+                            
                                 
                                 </div>
                             </div>
                         </div>  
                         <div class="col-md-3">    
                             <div class="card">
-                                <img src="templates/static/img/cards/cinco.jpg" class="card-img-top"alt="">
+                                <img src="templates/static/img/cards/gatoo.png"alt="">
                                 <div class="card-body">
-                                    <a href="#" class="main-btn2"><h5 class="card-title"> nahme</h5></a>
-                                    <p class="card-text"> nhame nhame </p>
+                                    <a href="#" class="main-btn2"><h5 class="card-title"> Gatos</h5></a>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">    
                             <div class="card">
-                                <img src="templates/static/img/cards/duas.jpg" class="card-img-top"alt="">
+                                <img src="templates/static/img/sobreNos/nylon.png" class="card-img-top"alt="">
                                 <div class="card-body">
-                                    <a href="#" class="main-btn2"><h5 class="card-title"> nahme</h5></a>
-                                    <p class="card-text"> nhame nhame </p>
+                                    <a href="#" class="main-btn2"><h5 class="card-title"> Nylons</h5></a>
+                                    
                                 </div>
                             </div>
                         </div>   
                         <div class="col-md-3"> 
                             <div class="card">
-                                <img src="templates/static/img/cards/tres.jpg" class="card-img-top"alt="">
+                                <img src="templates/static/img/sobreNos/tiggo.png" class="card-img-top"alt="">
                                 <div class="card-body">
-                                    <a href="#" class="main-btn2"><h5 class="card-title"> nahme</h5></a>
-                                    <p class="card-text"> nhame nhame </p>
+                                    <a href="#" class="main-btn2"><h5 class="card-title"> Tiggos</h5></a>
+                                    
                                 </div>
                             </div>
                         </div>     
@@ -99,31 +87,30 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="main-title"> Fotos disponiveis</h3>
+                            <h3 class="main-title"><i class="fas fa-camera"></i> Fotos disponiveis</h3>
                         </div>
                         <div class="col-md-12" id="filter-btn-box">
                             <button class="main-btn filter-btn active" id="all-btn">Todos</button>
-                            <button class="main-btn filter-btn " id="seg-btn" >Anime</button>
-                            <button class="main-btn filter-btn " id="ter-btn">Anime2</button>
-                            <button class="main-btn filter-btn " id="quar-btn">Anime3</button>
+                            <button class="main-btn filter-btn " id="seg-btn" >Gatos</button>
+                            <button class="main-btn filter-btn " id="ter-btn">Cachorros</button>
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/demon_slayer_by_muztnafi_ddy11q8-fullview.jpg" class="img-fluid" alt="">
+                            <img src="https://wallpaperaccess.com/full/2161363.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/hashibira_inosuke_by_muztnafi_de7tlj7-pre.jpg" class="img-fluid" alt="">
+                            <img src="https://images2.alphacoders.com/730/thumb-1920-730528.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/rengoku_by_muztnafi_dduntaq-fullview.jpg" class="img-fluid" alt="">
+                            <img src="https://i.pinimg.com/originals/21/96/53/219653d5f373989c45643d1d46954dc3.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/obanai_iguro_by_muztnafi_de7w07t-pre.jpg" class="img-fluid" alt="">
+                            <img src="https://uploads.metropoles.com/wp-content/uploads/2022/05/02141436/conheca_as_racas_de_cachorros_mais_inteligentes_widexl.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/gojo_by_muztnafi_dewpzdn-pre.jpg" class="img-fluid" alt="">
+                            <img src="https://images.alphacoders.com/439/439570.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="col-md-4 project-box dev">
-                            <img src="templates/static/img/filter/nanami_kento_by_muztnafi_dfaizq2-414w.jpg" class="img-fluid" alt="">
+                            <img src="https://www.10wallpaper.com/wallpaper/1366x768/1510/dog_grass_flowers-Photo_HD_Wallpaper_1366x768.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -135,11 +122,11 @@
                 <div class="row">
                     <div class="col-md-6 apply-box" id="company-img"></div>
                     <div class="col-md-6 apply-box" id="patern-img">
-                        <h4> GATINHOS FOFINHS</h4>
-                        <P>MEOW MEOW MEOW FOTOS FOTOS</P>
-                        <P>CLIQUE AQUI ABAIXO</P>
-                        <P>aqui tem gatinhos fofos</P>
-                        <a href="#" class="main-btn" id="apply-btn">Saiba mais</a>
+                        <h4> <i class="fa fa-paw"></i> GATITOS GALERY!</h4>
+                        <P>Galeria feita para pessoas que amam guarda recordações</P>
+                        <P>o melhor jeito de armazenar sua fotos sem perder <br>qualidade e sem risco de suas fotos sumirem do nada</P>
+                        <P>e o melhor! aqui tem gatinhos</P>
+                        <a href="admin/login.php" class="main-btn" id="apply-btn">Criar conta</a>
                     </div>
                 </div>
             </div>
