@@ -1,9 +1,9 @@
 <?php
     
-    include("admin/config.inc.php");
+    include("admin/includes/config.inc.php");
 
     
-    //require_once("admin/validateCookie.inc.php");
+    //require_once("admin/includes/validateCookie.inc.php");
     
     include_once("templates/header.php");
 

@@ -21,7 +21,7 @@
     }else{
         echo("<script>
             window.alert('Mensagem Enviada com Sucesso!');
-            window.location.href='../index.php';
+            window.location.href='../../index.php';
             </script>"
         );
     }

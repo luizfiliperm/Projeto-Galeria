@@ -1,4 +1,6 @@
-
+<?php
+    include_once("includes/config.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,26 +37,26 @@
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">
                             <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Create an Account</h5>
-                        <form action="" method="POST" id ="contact-form">
+                        <form action="includes/register.inc.php" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-user"></i> Username:</h5>
-                            <input type="text" class="form-control" name = "userName" placeholder="username">
+                            <input type="text" class="form-control" name = "username" placeholder="username" >
                             <h5 class="login"><i class="fa fa-lock"></i> Password:</h5>
-                            <input type="password" class="form-control" name = password placeholder="******">
+                            <input type="password" class="form-control" name = "password" placeholder="******" >
                             <h5 class="login"><i class="fa fa-lock"></i> Confirm Password:</h5>
-                            <input type="password" class="form-control" name = password placeholder="******">
-                            <button class="main-btn" id="apply-btn">Sign Up</button>
+                            <input type="password" class="form-control" name = "confirmPassword" placeholder="******" >
+                            <button class="main-btn" id="apply-btn" name = "submit">Sign Up</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
 
+    
 
  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

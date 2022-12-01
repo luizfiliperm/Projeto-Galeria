@@ -26,7 +26,7 @@
                         <p>Ou nos deixe uma mensagem: </p>
                     </div>
                     <div class="col-md-6" id="contact-form">
-                        <form method="POST" action="admin/saveMessage.php">
+                        <form method="POST" action="admin/includes/saveMessage.php">
                             <input type="email" class="form-control" placeholder="E-mail" name="email" required>
                             <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
                             <textarea class="form-control" rows="3" placeholder="Sua mensagem" name="message" required></textarea>
