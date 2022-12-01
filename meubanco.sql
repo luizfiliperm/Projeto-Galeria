@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 30-Nov-2022 às 00:39
+-- Tempo de geração: 01-Dez-2022 às 01:32
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 7.4.29
 
@@ -35,6 +35,26 @@ CREATE TABLE `faleconosco` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Extraindo dados da tabela `faleconosco`
+--
+
+INSERT INTO `faleconosco` (`Id`, `Email`, `Assunto`, `Mensagem`) VALUES
+(20, 'luizfilipemr17@gmail.com', 'teste', 'teste'),
+(21, 'luizfilipemr17@gmail.com', 'teste', 'teste');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `users`
+--
+
+CREATE TABLE `users` (
+  `Id` int(11) NOT NULL,
+  `username` varchar(128) NOT NULL,
+  `usersPwd` varchar(128) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -45,6 +65,12 @@ ALTER TABLE `faleconosco`
   ADD PRIMARY KEY (`Id`);
 
 --
+-- Índices para tabela `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`Id`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -52,7 +78,13 @@ ALTER TABLE `faleconosco`
 -- AUTO_INCREMENT de tabela `faleconosco`
 --
 ALTER TABLE `faleconosco`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
+--
+-- AUTO_INCREMENT de tabela `users`
+--
+ALTER TABLE `users`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
