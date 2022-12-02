@@ -47,23 +47,23 @@ function createUser($conn, $username, $usersPwd) {
     $stmt = $conn->prepare($sql);
     if(!$stmt){
         echo("<script>
-        window.alert('Falha ao cadastrar sua conta!\nFavor tentar novamente!');
+        window.alert('Falha ao cadastrar sua conta! Favor tentar novamente!');
         window.location.href='../../index.php';
         </script>"
     );
     exit();
-}
-// mysqli_stmt_bind_param($stmt, "ss", $username, $hashedPwd);
-mysqli_stmt_execute($stmt);
-mysqli_stmt_close($stmt);
+    }
+    // mysqli_stmt_bind_param($stmt, "ss", $username, $hashedPwd);
+    mysqli_stmt_execute($stmt);
+    mysqli_stmt_close($stmt);
 
-// header("location: ../../index.php?error=none");
-echo("<script>
-window.alert('Conta cadastrada com sucesso!');
-window.location.href='../login.php';
-</script>"
-);
-exit();
+    // header("location: ../../index.php?error=none");
+    echo("<script>
+            window.alert('Conta cadastrada com sucesso!');
+            window.location.href='../login.php';
+    </script>"
+    );
+    exit();
 
 }
 
@@ -87,6 +87,16 @@ function userExists($conn, $username){
         $result = false;
     }else{
         $result = true;
+    }
+    return $result;
+}
+
+function emptyImgForm($urlImg, $albumName, $dateImg) {
+    $result;
+    if(empty($urlImg) || empty($albumName) || empty($dateImg)){
+        $result = true;
+    }else{
+        $result = false;
     }
     return $result;
 }

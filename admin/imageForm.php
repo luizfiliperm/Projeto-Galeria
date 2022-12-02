@@ -1,4 +1,7 @@
-
+<?php
+    session_start();
+    include_once("includes/config.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,14 +38,14 @@
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">
                             <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Cadastro de fotos</h5>
-                        <form action="" method="POST" id ="contact-form">
+                        <form action="includes/image.inc.php" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-paperclip"></i> Url da imagem:</h5>
                             <input type="text" class="form-control" name = "url" placeholder="url">
                             <h5 class="login"><i class="fa fa-image"></i> Nome do Album:</h5>
                             <input type="text" class="form-control" name = "albumName" placeholder="Nome do Album">
                             <h5 class="login"><i class="fa fa-calendar-days"></i> Data:</h5>
-                            <input type="date" class="form-control" name = "date" value="0000-00-00" min="2022-11-30" max="2022-12-31">
-                            <button class="main-btn" id="apply-btn"><i class="fa fa-arrow-up-from-bracket"></i> Enviar</button>
+                            <input type="date" class="form-control" name = "date" value="00-00-0000" min="0000-00-00" max="2022-12-31">
+                            <button class="main-btn" id="apply-btn" name = "submit"><i class="fa fa-arrow-up-from-bracket" ></i> Enviar</button>
                         </form>
                     </div>
                 </div>
