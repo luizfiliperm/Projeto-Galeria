@@ -1,7 +1,7 @@
 <?php
     session_start();
     
-    include("admin/includes/config.inc.php");
+    include_once("admin/includes/config.inc.php");
 
     if(isset($_SESSION["username"])){
         include_once("templates/header.php");
