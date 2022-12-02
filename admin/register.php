@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-md-6 apply-box" id="company-img">
                         <div class="col-md-1">    
-                            <a class="icon" href="../index.php"><i class="fa fa-arrow-left"></i></a>
+                            <a class="icon" href="login.php"><i class="fa fa-arrow-left"></i></a>
                         </div>
                     </div>
                         <div class="col-md-6 apply-box" id="patern-img">

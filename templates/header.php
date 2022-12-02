@@ -42,7 +42,7 @@
                 <a href="?pg=templates/photos" class="nav-item nav-link" id="photos-menu"><i class="fa fa-image"></i> Fotos</a>
                 <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu"><i class="fa fa-images"></i> Album</a>
                 <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu"><i class="fa fa-user-group"></i> Sobre nos</a>
-                <a href="admin/login.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> Minha conta</a>
+                <a href="admin/logout.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> Logout</a>
             </div>
         </div>
     </nav>

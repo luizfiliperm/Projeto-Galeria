@@ -44,10 +44,6 @@
         );
             exit();
         }
-        // if(uidExists($conn, $username) !== false){
-        //     header("location: ../register.php?error=usernametaken");
-        //     exit();
-        // }
 
         createUser($conn, $username, $usersPwd);
 

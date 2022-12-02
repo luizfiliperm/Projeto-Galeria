@@ -1,4 +1,6 @@
-
+<?php
+    include_once("includes/config.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

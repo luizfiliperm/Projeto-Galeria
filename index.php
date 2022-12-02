@@ -1,4 +1,5 @@
 <?php
+    session_start();
     
     include("admin/includes/config.inc.php");
 
