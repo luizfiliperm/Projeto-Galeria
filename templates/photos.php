@@ -4,14 +4,23 @@
     <link rel="stylesheet" href="templates/static/lightbox/lightbox.min.css">
        <!--Fotinhas bonitinhas-->
         <div class="container container-fotos">
-            <h1 class="main-title">Fotos</h1>
+            <?php
+                $searchAlbum = $_GET["album"];
+                $username = $_SESSION["username"];
+
+                if($searchAlbum  == "none"){
+                    $sql = "SELECT * FROM usersimage WHERE userIMG = '$username' ORDER BY dateImg DESC;";
+                    echo('<h1 class="main-title">Fotos</h1>');
+                }else{
+                    $sql = "SELECT * FROM usersimage WHERE userIMG = '$username' AND albumName = '$searchAlbum' ORDER BY dateImg DESC;";
+                    echo('<h1 class="main-title">'.$searchAlbum.'</h1>');
+                }
+            ?>
             <div class="row">
                 <?php
                     // require_once("admin/includes/config.inc.php");
-
-                    $username = $_SESSION["username"];
-                    $sql = "SELECT * FROM usersimage WHERE userIMG = '$username' ORDER BY dateImg DESC;";
                     $result = mysqli_query($conn, $sql);
+
                     while($row = mysqli_fetch_array($result)){
                         echo('<div class="col-sm-12 col-md-6 col-lg-4">
                         <a href="'.$row["urlImg"].'" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="'.$row["urlImg"].'"></a>
