@@ -66,8 +66,6 @@
                                 <img src="templates/static/img/cards/dog.png" class="card-img-top"alt="">
                                 <div class="card-body">
                                     <a href="#" class="main-btn2"><h5 class="card-title"> Cachorros</h5></a>
-                            
-                                
                                 </div>
                             </div>
                         </div>   -->
@@ -109,28 +107,17 @@
                         <div class="col-md-12">
                             <h3 class="main-title"><i class="fas fa-camera"></i> Fotos Recentes</h3>
                         </div>
-                        <div class="col-md-12" id="filter-btn-box">
-                            <button class="main-btn filter-btn active" id="all-btn">Todos</button>
-                            <button class="main-btn filter-btn " id="seg-btn" >Gatos</button>
-                            <button class="main-btn filter-btn " id="ter-btn">Cachorros</button>
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://wallpaperaccess.com/full/2161363.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://images2.alphacoders.com/730/thumb-1920-730528.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://i.pinimg.com/originals/21/96/53/219653d5f373989c45643d1d46954dc3.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://uploads.metropoles.com/wp-content/uploads/2022/05/02141436/conheca_as_racas_de_cachorros_mais_inteligentes_widexl.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://images.alphacoders.com/439/439570.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-4 project-box dev">
-                            <img src="https://www.10wallpaper.com/wallpaper/1366x768/1510/dog_grass_flowers-Photo_HD_Wallpaper_1366x768.jpg" class="img-fluid" alt="">
+                        <?php 
+                            $username = $_SESSION["username"];                       
+                            $sql = "SELECT * FROM usersimage WHERE userIMG = '$username' ORDER BY dateImg DESC LIMIT 6;";
+                            $result = mysqli_query($conn, $sql);
+                            while($row = mysqli_fetch_array($result)){
+                                echo('<div class="col-md-4 project-box dev">
+                                        <img src="'.$row["urlImg"].'" class="img-fluid" alt="">
+                                    </div>');
+                            }       
+
+                        ?>
                         </div>
                     </div>
                 </div>
