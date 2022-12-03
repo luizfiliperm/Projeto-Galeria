@@ -18,7 +18,7 @@
                                 $count = 0;
                             }
                             $albumName = $row['albumName'];
-                            $url = "SELECT * FROM usersimage WHERE userIMG = '$username' AND albumname = '$albumName';";
+                            $url = "SELECT * FROM usersimage WHERE userIMG = '$username' AND albumname = '$albumName' ORDER BY dateImg DESC;";
                             $resultURL = mysqli_fetch_array(mysqli_query($conn, $url));
                                 echo '
                                     <div class="col-md-3">

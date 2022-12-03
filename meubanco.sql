@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Dez-2022 às 00:41
+-- Tempo de geração: 03-Dez-2022 às 02:10
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 7.4.29
 
@@ -71,7 +71,7 @@ INSERT INTO `users` (`Id`, `username`, `usersPwd`) VALUES
 
 CREATE TABLE `usersimage` (
   `id` int(11) NOT NULL,
-  `urlImg` varchar(300) NOT NULL,
+  `urlImg` varchar(500) NOT NULL,
   `albumName` varchar(128) NOT NULL,
   `dateImg` date NOT NULL,
   `userImg` varchar(128) NOT NULL
@@ -84,7 +84,11 @@ CREATE TABLE `usersimage` (
 INSERT INTO `usersimage` (`id`, `urlImg`, `albumName`, `dateImg`, `userImg`) VALUES
 (5, 'https://i.pinimg.com/originals/7b/fc/79/7bfc792837b7edef3dc28b02721c78e9.jpg', 'Gatos', '2022-12-02', 'Vitoria'),
 (6, 'https://i.pinimg.com/originals/11/1a/03/111a03133d14214539c96e0f657dff1a.png', 'Paisagens', '2022-12-16', 'Vitoria'),
-(7, 'https://images.wallpaperscraft.com/image/single/astronaut_ring_neon_156673_1920x1080.jpg', 'Buraco Negro', '2022-10-04', 'Luiz');
+(7, 'https://images.wallpaperscraft.com/image/single/astronaut_ring_neon_156673_1920x1080.jpg', 'Buraco Negro', '2022-10-04', 'Luiz'),
+(8, 'https://i.redd.it/jj21ka0ddew71.png', 'Olhos', '2022-12-02', 'Vitoria'),
+(9, 'https://i.pinimg.com/originals/98/49/b1/9849b17f5d3872deda07e7715f3f483e.jpg', 'anime', '2022-12-01', 'Vitoria'),
+(10, 'https://wallpaperaccess.com/full/384340.jpg', 'Filmes', '2022-12-02', 'Vitoria'),
+(13, 'https://wallpapercave.com/wp/wp8771838.jpg', 'anime', '2022-12-08', 'Vitoria');
 
 --
 -- Índices para tabelas despejadas
@@ -128,7 +132,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de tabela `usersimage`
 --
 ALTER TABLE `usersimage`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
