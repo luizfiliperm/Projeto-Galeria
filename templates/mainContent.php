@@ -8,22 +8,26 @@
                     <li data-target="#mainSlider" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da1b7r2-1ee19d56-d29d-403a-a76b-6ebe94e4ba49.jpg/v1/fill/w_1024,h_682,q_75,strp/papi_being_a_heroic_poolguard_for_our_pups__by_chloethechihuahua_da1b7r2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgyIiwicGF0aCI6IlwvZlwvNTlkZGYzNTktMDkxMy00OWY4LWIzN2YtYzZiMmQxY2YyNDE4XC9kYTFiN3IyLTFlZTE5ZDU2LWQyOWQtNDAzYS1hNzZiLTZlYmU5NGU0YmE0OS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.t8lsrB9dwqZCEaYI273lcNr0jZ4hgNHvvf0Y3cJYADo" class="d-block w-100"alt="">
-                       
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="  https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da1egoa-98abc93e-a46d-43a9-a2fc-fe384ff0bea2.jpg/v1/fill/w_1192,h_670,q_70,strp/mi_amor_by_chloethechihuahua_da1egoa-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzU5ZGRmMzU5LTA5MTMtNDlmOC1iMzdmLWM2YjJkMWNmMjQxOFwvZGExZWdvYS05OGFiYzkzZS1hNDZkLTQzYTktYTJmYy1mZTM4NGZmMGJlYTIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N0rWWclZPiruJGIJjaEAaxaSbrXujlAM1FC4LbTNNok" class="d-block w-100"alt="">
-        
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59ddf359-0913-49f8-b37f-c6b2d1cf2418/da21vlm-8aee3f35-8856-43f9-aa55-67e27adc216c.jpg/v1/fill/w_1192,h_670,q_70,strp/relaxation_i_by_chloethechihuahua_da21vlm-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzU5ZGRmMzU5LTA5MTMtNDlmOC1iMzdmLWM2YjJkMWNmMjQxOFwvZGEyMXZsbS04YWVlM2YzNS04ODU2LTQzZjktYWE1NS02N2UyN2FkYzIxNmMuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6ZM20z2qbBNRZra6-q2dxuJzLitb2RRzMyQZYV1np_k" class="d-block w-100"alt="">
-                        
-                    </div>
+                    <?php
+                        require_once("admin/includes/config.inc.php");
+                        $username = $_SESSION["username"];
+                        $sql = "SELECT * FROM usersimage WHERE userImg = '$username' ORDER BY dateImg DESC LIMIT 3;";
+                        $result = mysqli_query($conn, $sql);
+                        $count = 0;
+                            while($row = mysqli_fetch_array($result)){
+                                $url = $row["urlImg"];
+                                if($count == 0){
+                                    echo'<div class="carousel-item active">';
+                                }else{
+                                    echo'<div class="carousel-item">';
+                                }
+                                echo'
+                                    <img src="'.$url.'" class="d-block w-100"alt="">
+                                </div>';
+                                $count++;
+                            }
+                    ?>
                 </div>
-                
                 <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
