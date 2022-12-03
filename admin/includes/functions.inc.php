@@ -47,8 +47,8 @@ function createUser($conn, $username, $usersPwd) {
     $stmt = $conn->prepare($sql);
     if(!$stmt){
         echo("<script>
-        window.alert('Falha ao cadastrar sua conta! Favor tentar novamente!');
-        window.location.href='../../index.php';
+            window.alert('Falha ao cadastrar sua conta! Favor tentar novamente!');
+            window.location.href='../../index.php';
         </script>"
     );
     exit();
@@ -61,7 +61,7 @@ function createUser($conn, $username, $usersPwd) {
     echo("<script>
             window.alert('Conta cadastrada com sucesso!');
             window.location.href='../login.php';
-    </script>"
+        </script>"
     );
     exit();
 
@@ -94,6 +94,16 @@ function userExists($conn, $username){
 function emptyImgForm($urlImg, $albumName, $dateImg) {
     $result;
     if(empty($urlImg) || empty($albumName) || empty($dateImg)){
+        $result = true;
+    }else{
+        $result = false;
+    }
+    return $result;
+}
+
+function emptyProfile($username, $profilePhoto, $bio) {
+    $result;
+    if(empty($username) || empty($profilePhoto) || empty($bio)){
         $result = true;
     }else{
         $result = false;
