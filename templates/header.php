@@ -39,22 +39,23 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
             <div class="navbar-nav"> <!--Sugestivel a mudança-->
                 <?php if($_SESSION["username"] == "admin"){?>
-                    <a href="admin/logout.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> <?php echo "Bem vindos, adminisnatores!";?></a>
+                    <a href="#" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> <?php echo "Admin";?></a>
                     <?php }?>
                 <a href="?pg=templates/mainContent" class="nav-item nav-link" id="home-menu"><i class="fa fa-house"></i></a>
                 <a href="?pg=templates/photos&album=none" class="nav-item nav-link" id="photos-menu"><i class="fa fa-image"></i> Fotos</a>
                 <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu"><i class="fa fa-images"></i> Album</a>
                 <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu"><i class="fa fa-user-group"></i> Sobre nos</a>
-                <a href="admin/logout.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> <?php echo $_SESSION["username"];?></a>
+        
             </div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Conta
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item " href="#">Alguma ação</a>
-                    </div>
-            </div>
+        </div>
+        <div class="dropdown">
+                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-user"></i> <?php echo $_SESSION["username"];?>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Conta</a>
+                  <a class="dropdown-item" href="admin/logout.php">Sair</a>
+                </div>
         </div>
     </nav>
 </div>
