@@ -89,15 +89,7 @@
                                 </div>
                             </div>
                         </div>   
-                        <div class="col-md-3"> 
-                            <div class="card">
-                                <img src="templates/static/img/sobreNos/tiggo.png" class="card-img-top"alt="">
-                                <div class="card-body">
-                                    <a href="#" class="main-btn2"><h5 class="card-title"> Tiggos</h5></a>
-                                    
-                                </div>
-                            </div>
-                        </div>      -->
+                           -->
                     </div>
                 </div>
             </div>
@@ -146,7 +138,6 @@
                         <P>Galeria feita para pessoas que amam guardar recordações</P>
                         <P>o melhor jeito de armazenar sua fotos sem perder <br>qualidade e sem risco de suas fotos sumirem do nada</P>
                         <P>e o melhor! aqui tem gatinhos</P>
-                        <a href="admin/login.php" class="main-btn" id="apply-btn">Criar conta</a>
                     </div>
                 </div>
             </div>
