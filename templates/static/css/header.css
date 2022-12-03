@@ -21,6 +21,58 @@ body{
  }
  
  /* Barra de navegação*/
+
+.dropdown-menu {
+    min-width: 6rem !important;
+} 
+
+.dropdown a {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown .btn  {
+    background-color: transparent ;
+    border-color: transparent ;
+}
+
+.btn  {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: rgba(3, 54, 73, 0.938) !important;
+    border-radius: 10px !important;
+    
+    transform: scale(1.1) !important;
+}
+
+.btn:active  {
+    border-color: transparent !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(3, 54, 73, 0.938) !important;
+}
+
+.dropdown-menu a{
+    color: white !important;  
+}
+
+
+.dropdown-menu a:hover{
+    border-radius: 15px;
+    background-color:rgba(6, 75, 100, 0.938) !important;
+    transform: scale(1.1) !important;
+}
+
+/* .dropdown .btn, .dropdown .btn:focus{
+    background-color: transparent ;
+    border-color: transparent;
+} */
  
  header, .navbar {
      background-color: #134647e0 ;

@@ -1,0 +1,31 @@
+*Cards*/
+
+.main-title {
+	margin: 90px 0 65px 0;
+	font-size: 30px;
+	text-align: center;
+}
+
+.card-body {
+	text-align: center;
+	background-color: #bfac8b;
+}
+
+.card-text, .card-title {
+	color: rgb(0, 0, 0);
+}
+
+.main-btn2 {
+	background-color: rgb(200, 200, 236);
+	color: rgb(0, 0, 0);
+	transition: .5s;
+}
+
+.main-btn2 .card-body:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.project-box .img-fluid {
+    border-radius: 10px;
+}
