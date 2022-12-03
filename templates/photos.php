@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="templates/static/lightbox/lightbox.min.css">
        <!--Fotinhas bonitinhas-->
         <div class="container container-fotos">
+
+            
+
             <?php
                 $searchAlbum = $_GET["album"];
                 $username = $_SESSION["username"];
@@ -16,7 +19,16 @@
                     echo('<h1 class="main-title">'.$searchAlbum.'</h1>');
                 }
             ?>
+              <div id="insert-photos">
             <div class="row">
+                <div class="col-md-12">
+                 <a href="admin/imageForm.php" class="main-btn" id="insert-btn">Inserir Fotos</a>
+                </div>            
+            </div>
+        </div>
+            <div class="row">
+
+
                 <?php
                     // require_once("admin/includes/config.inc.php");
                     $result = mysqli_query($conn, $sql);
@@ -32,13 +44,7 @@
             </div>
         </div>
 
-        <div id="insert-photos">
-            <div class="row">
-                <div class="col-md-12">
-                 <a href="admin/imageForm.php" class="main-btn" id="insert-btn">Inserir Fotos</a>
-                </div>            
-            </div>
-        </div>
+        
         
 
     </main>

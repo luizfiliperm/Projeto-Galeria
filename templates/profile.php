@@ -1,36 +1,66 @@
+<?php
+    require_once("admin/includes/config.inc.php");
+    $username = $_SESSION["username"];
+
+    $sql = "SELECT * FROM usersprofile WHERE username = '$username';";
+
+    $result = mysqli_query($conn, $sql);
+    $row = mysqli_fetch_array($result);
+    $urlImg = $row["profilePhoto"];
+    $bio = $row["bio"];
+?>
+
+
 <main>
     <link rel="stylesheet" href="templates/static/css/profile.css">  
 
-    <main>
-    <!--Fotinhas bonitinhas-->
-     <div class="container container-fotos">
-         <h1 class="main-title">Minhas fotos</h1>
-         <div class="row">
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/demon_slayer_by_muztnafi_ddy11q8-fullview.jpg" alt=""></a>
-             </div>
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="../img2/gojo_by_muztnafi_dewpzdn-pre.jpg" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/gojo_by_muztnafi_dewpzdn-pre.jpg" alt=""></a>
-             </div>
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/hashibira_inosuke_by_muztnafi_de7tlj7-pre.jpg" alt=""></a>
-             </div>
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/nanami_kento_by_muztnafi_dfaizq2-414w.jpg" alt=""></a>
-             </div>  
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/obanai_iguro_by_muztnafi_de7w07t-pre.jpg" alt=""></a>
-             </div>  
-             <div class="col-sm-12 col-md-6 col-lg-3">
-                 <a href="" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="../img2/rengoku_by_muztnafi_dduntaq-fullview.jpg" alt=""></a>
-             </div>  
-         </div>
+    <!--Cards / albuns-->   
+    <div class="cards-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title"><?php echo $username;?></h3>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            
+                            <img src="<?php echo $urlImg?>" class="card-img-top"alt="">
+                            <div class="card-body">
+                                
+                                <p class="card-text">  <?php echo $bio;?> </p>
 
-         
-     
- 
-     </div>
 
+
+                                <a href = "admin/userProfile.php" class="profile-text">configurações do perfil</a>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div id="portifolio-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title"><i class="fas fa-camera"></i> Fotos Recentes</h3>
+                    </div>
+                        <?php                      
+                            $sql = "SELECT * FROM usersimage WHERE userIMG = '$username' ORDER BY dateImg DESC LIMIT 6;";
+                            $result = mysqli_query($conn, $sql);
+                            while($row = mysqli_fetch_array($result)){
+                                echo('<div class="col-md-4 project-box dev">
+                                        <img src="'.$row["urlImg"].'" class="img-fluid" alt="">
+                                    </div>');
+                            }       
+
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
  </main>
  
    

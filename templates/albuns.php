@@ -26,7 +26,7 @@
                                             <img src="'.$resultURL["urlImg"].'" class="card-img-top"alt="">
                                             <div class="card-body">
                                                 <a href="?pg=templates/photos&album='.$row["albumName"].'" class="main-btn2"><h5 class="card-title"> '.$row["albumName"].'</h5></a>
-                                                <p class="card-text"> '.$row["albumName"].' </p>
+                                                
                                             </div>
                                         </div>
                                     </div>

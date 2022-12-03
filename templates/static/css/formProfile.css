@@ -1,0 +1,143 @@
+.corpo {
+    background-color: #0c7e7e;   
+}
+
+
+.icon {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icon i {
+    font-size: 24px;
+}
+
+.icon i:hover {
+    color:#0c7e7e;
+}
+
+
+#apply-area{
+    height: 500px;
+    border-radius: 30px;
+    margin: 70px;
+    box-shadow: 8px 22px 14px -4px rgba(0, 0, 0, 0.24);
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#company-img {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url(https://i.pinimg.com/564x/32/53/4d/32534d9e6cd285856b2e6e3d8b88ea81.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+#patern-img h4 , #patern-img p{
+    color: rgb(0, 0, 0);
+}
+
+#patern-img h4 {
+    font-size: 65px;
+    margin-top: 8%;
+    margin-bottom: 20px;
+}
+
+#patern-img p {
+    margin-bottom: 2px;
+}
+
+#apply-area{
+    background-color:  #bfac8b;
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*Cards*/
+
+.main-title {
+   margin: 10px 0 90px 0;
+   font-size: 30px;
+   text-align: center;
+}
+
+.register {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.register:hover {
+    color: #0c7e7e;
+}
+
+.login {
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0;
+}
+
+/*botao*/
+
+.main-btn {
+   background-color: rgb(200, 200, 236);
+   color: black;
+   width: 120px;
+   height: 50px;
+   padding: 5px 15px;
+   border-radius: 30px;
+   border: 3px solid transparent;
+   transition: .5s;
+   cursor: pointer;
+}
+
+.main-btn:hover {
+   text-decoration: none;
+   color: black;
+   background-color: transparent;
+   border-color:  rgb(200, 200, 236);
+}
+
+#apply-btn{
+   color: rgb(255, 255, 255);
+   display: block;
+   height: auto;
+   width: 180px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   transition: .2s;
+   background:#00272d;
+   margin-bottom: 20px;
+   box-shadow: 8px 15px 10px -4px rgba(0, 0, 0, 0.24);
+}
+
+#apply-btn:hover {
+   border-color: #bfac8b;
+}
+
+#contact-form {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#contact-form input[type = "text"],#contact-form input[type = "password"] {
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+

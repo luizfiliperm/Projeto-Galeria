@@ -50,7 +50,7 @@
                     window.alert('Você Foi logado com sucesso!');
                 </script>"
             );
-            header("location: ../../index.php");
+            header("location: ../userProfile.php");
         }
     }
     else{
