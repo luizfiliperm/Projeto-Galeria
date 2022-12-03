@@ -14,7 +14,7 @@
                     $result = mysqli_query($conn, $sql);
                     while($row = mysqli_fetch_array($result)){
                         echo('<div class="col-sm-12 col-md-6 col-lg-4">
-                        <a href="'.$row["1"].'" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="'.$row["1"].'"></a>
+                        <a href="'.$row["urlImg"].'" data-lightbox="mygallery"><img class= "img-fluid mb-4 shadow rounded" src="'.$row["urlImg"].'"></a>
                     </div>');
                     }                   
                 ?>

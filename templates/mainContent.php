@@ -41,7 +41,27 @@
                         <div class="col-12">
                             <h3 class="main-title"><i class="fa fa-images"></i> Albuns</h3>
                         </div>
-                        <div class="col-md-3">
+                        <?php
+                            $username = $_SESSION["username"];
+                            $sql = "SELECT DISTINCT albumName FROM usersimage WHERE userIMG = '$username' ORDER BY dateImg DESC LIMIT 4;";
+                            $result = mysqli_query($conn, $sql);
+                            while($row = mysqli_fetch_array($result)){
+                                $albumName = $row['albumName'];
+                                $url = "SELECT * FROM usersimage WHERE userIMG = '$username' AND albumname = '$albumName';";
+                                $resultURL = mysqli_fetch_array(mysqli_query($conn, $url));
+                                    echo '
+                                        <div class="col-md-3">
+                                            <div class="card">
+                                                <img src="'.$resultURL["urlImg"].'" class="card-img-top"alt="">
+                                                <div class="card-body">
+                                                    <a href="#" class="main-btn2"><h5 class="card-title"> '.$row["albumName"].'</h5></a>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    ';
+                            }    
+                        ?>
+                        <!-- <div class="col-md-3">
                             <div class="card">
                                 <img src="templates/static/img/cards/dog.png" class="card-img-top"alt="">
                                 <div class="card-body">
@@ -50,8 +70,8 @@
                                 
                                 </div>
                             </div>
-                        </div>  
-                        <div class="col-md-3">    
+                        </div>   -->
+                        <!-- <div class="col-md-3">    
                             <div class="card">
                                 <img src="templates/static/img/cards/gatoo.png"alt="">
                                 <div class="card-body">
@@ -77,7 +97,7 @@
                                     
                                 </div>
                             </div>
-                        </div>     
+                        </div>      -->
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@
                             <h5 class="login"><i class="fa fa-image"></i> Nome do Album:</h5>
                             <input type="text" class="form-control" name = "albumName" placeholder="Nome do Album">
                             <h5 class="login"><i class="fa fa-calendar-days"></i> Data que a foto foi tirada:</h5>
-                            <input type="date" class="form-control" name = "date" value="00-00-0000" min="0000-00-00" max="2022-12-31">
+                            <input type="date" class="form-control" name = "date" value="00-00-0000" min="0000-00-00">
                             <button class="main-btn" id="apply-btn" name = "submit"><i class="fa fa-arrow-up-from-bracket" ></i> Enviar</button>
                         </form>
                     </div>

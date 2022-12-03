@@ -47,6 +47,14 @@
                 <a href="?pg=templates/sobreNos"class="nav-item nav-link" id="about-menu"><i class="fa fa-user-group"></i> Sobre nos</a>
                 <a href="admin/logout.php" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> <?php echo $_SESSION["username"];?></a>
             </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Conta
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item " href="#">Alguma ação</a>
+                    </div>
+            </div>
         </div>
     </nav>
 </div>
