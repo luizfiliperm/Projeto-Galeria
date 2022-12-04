@@ -53,7 +53,6 @@
                   <i class="fa fa-user"></i> <?php echo $_SESSION["username"];?>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="?pg=templates/profile">Conta</a>
                   <a class="dropdown-item" href="admin/logout.php">Sair</a>
                 </div>
         </div>
