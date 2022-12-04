@@ -15,7 +15,7 @@
 }
 
 #company-img {
-    background-image: url(https://i.pinimg.com/564x/70/f0/ea/70f0eaf218fedf813d8cac983ad902b5.jpg);
+    background-image: url(../img/sobreNos/gatito.png);
     background-size: cover;
     height: 100%;
 }
@@ -62,6 +62,14 @@
 }
 
 /*Cards*/
+
+.primeiro {
+   margin-left: 20px;
+}
+
+.cards2 {
+   margin-right: 2%;
+}
 
 .main-title {
    margin: 0 0 65px 0;
