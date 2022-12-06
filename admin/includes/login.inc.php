@@ -48,9 +48,10 @@
             $_SESSION["username"] =  $row['username'];
             echo("<script>
                     window.alert('Você Foi logado com sucesso!');
+                    window.location.href='../../index.php';
                 </script>"
             );
-            header("location: ../userProfile.php");
+            
         }
     }
     else{

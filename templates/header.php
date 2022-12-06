@@ -38,9 +38,6 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
             <div class="navbar-nav"> <!--Sugestivel a mudança-->
-                <?php if($_SESSION["username"] == "admin"){?>
-                    <a href="#" class="nav-item nav-link login" id="contact-menu"><i class="fa fa-user"></i> <?php echo "Admin";?></a>
-                    <?php }?>
                 <a href="?pg=templates/mainContent" class="nav-item nav-link" id="home-menu"><i class="fa fa-house"></i></a>
                 <a href="?pg=templates/photos&album=none" class="nav-item nav-link" id="photos-menu"><i class="fa fa-image"></i> Fotos</a>
                 <a href="?pg=templates/albuns"class="nav-item nav-link" id="album-menu"><i class="fa fa-images"></i> Album</a>
