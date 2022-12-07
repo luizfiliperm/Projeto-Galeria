@@ -39,7 +39,7 @@
                             <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Create an Account</h5>
                         <form action="includes/register.inc.php" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-user"></i> Username:</h5>
-                            <input type="text" class="form-control" name = "username" placeholder="username" >
+                            <input type="text" autocomplete="off" class="form-control" name = "username" placeholder="username" >
                             <h5 class="login"><i class="fa fa-lock"></i> Password:</h5>
                             <input type="password" class="form-control" name = "password" placeholder="******" >
                             <h5 class="login"><i class="fa fa-key"></i> Confirm Password:</h5>

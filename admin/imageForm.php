@@ -40,7 +40,7 @@
                             <h5 class="main-title" id ="cont-register"><i class="fa fa-paw"></i> Cadastro de fotos</h5>
                         <form action="includes/image.inc.php" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-paperclip"></i> Url da imagem:</h5>
-                            <input type="text" class="form-control" name = "url" placeholder="url">
+                            <input type="text" autocomplete="off" class="form-control" name = "url" placeholder="url">
                             <h5 class="login"><i class="fa fa-image"></i> Nome do Album:</h5>
                             <input type="text" class="form-control" name = "albumName" placeholder="Nome do Album">
                             <h5 class="login"><i class="fa fa-calendar-days"></i> Data que a foto foi tirada:</h5>

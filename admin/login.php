@@ -39,7 +39,7 @@
                             <h4 class="main-title"><i class="fa fa-paw"></i> Galery Gatito</h4>
                         <form action="includes/login.inc.php" method="POST" id ="contact-form">
                             <h5 class="login"> <i class="fa fa-user"></i> Username:</h5>
-                            <input type="text" class="form-control" name = "username" placeholder="username">
+                            <input type="text"  autocomplete="off" class="form-control" name = "username" placeholder="username">
                             <h5 class="login"><i class="fa fa-lock"></i> Password:</h5>
                             <input type="password" class="form-control" name = "pwd" placeholder="******">
                             <button class="main-btn" id="apply-btn" name = "submit">Sign Up</button>
